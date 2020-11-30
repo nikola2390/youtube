@@ -1,3 +1,13 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(221, 216, 216);
+  margin: 10px;
+  width: 350px;
+  height: 400px;
+}
+
 .statistics {
   display: flex;
   p {
@@ -25,3 +35,4 @@
 p {
   font-size: 16px;
 }
+

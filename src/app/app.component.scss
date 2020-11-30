@@ -1,11 +1,13 @@
+:host {
+  width: 90%;
+  background: rgb(147, 210, 87);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 p {
   font-size: 30px;
   margin-bottom: 20px;
-}
-
-app-search-results {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 90%;
 }
