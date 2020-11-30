@@ -2,3 +2,10 @@ p {
   font-size: 30px;
   margin-bottom: 20px;
 }
+
+app-search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+}
