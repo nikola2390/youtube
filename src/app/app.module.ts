@@ -7,13 +7,15 @@ import { SearchResultsComponent } from './components/search-results/search-resul
 import { SearchResultsItemComponent } from './components/search-results-item/search-results-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { SearchResultsItemInfoComponent } from './components/search-results-item-info/search-results-item-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SearchResultsComponent,
-    SearchResultsItemComponent
+    SearchResultsItemComponent,
+    SearchResultsItemInfoComponent
   ],
   imports: [
     BrowserModule,

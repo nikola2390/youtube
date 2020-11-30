@@ -1,0 +1,21 @@
+<div class="info-container">
+  <img [src]="item.snippet.thumbnails.standard.url" alt="image">
+  <div class="details">
+    <p class="title">{{item.snippet.title}}</p>
+    <div class="text-info">
+      <p class="description">Description:</p>
+      <p>{{item.snippet.description}}</p>
+    </div>
+    <div class="additional-info">
+      <p class="left">{{item.snippet.channelTitle}}</p>
+      <p class="right">{{item.snippet.publishedAt | date : 'fullDate'}}</p>
+    </div>
+    <div class="statistics">
+      <p><mat-icon>remove_red_eye</mat-icon>{{item.statistics.viewCount}} </p>
+      <p><mat-icon class="material-icons-outlined">sentiment_satisfied</mat-icon>{{item.statistics.likeCount}} </p>
+      <p><mat-icon class="material-icons-outlined">sentiment_dissatisfied</mat-icon>{{item.statistics.dislikeCount}}</p>
+      <p><mat-icon>comment</mat-icon>{{item.statistics.commentCount}}</p>
+    </div>
+  </div>
+</div>
+<button class="back">Back</button>
