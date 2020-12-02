@@ -7,12 +7,5 @@
     <p><mat-icon class="material-icons-outlined">sentiment_dissatisfied</mat-icon>{{item.statistics.dislikeCount}}</p>
     <p><mat-icon>comment</mat-icon>{{item.statistics.commentCount}}</p>
   </div>
-  <button class="more-information">More</button>
+  <button class="more-information" routerLink="/results/{{item.id}}">More</button>
 </div>
-<!-- <div>
-  <p>Description: {{item.snippet.description}}</p>
-  <p>Author: {{item.snippet.channelTitle}}</p>
-  <p>Published: {{item.snippet.publishedAt}}</p>
-</div>
-<button>Hide</button> -->
-

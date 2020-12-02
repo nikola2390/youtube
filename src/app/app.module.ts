@@ -8,6 +8,7 @@ import { SearchResultsItemComponent } from './components/search-results-item/sea
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { SearchResultsItemInfoComponent } from './components/search-results-item-info/search-results-item-info.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SearchResultsItemInfoComponent } from './components/search-results-item
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
